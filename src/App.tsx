@@ -12,7 +12,6 @@ function App() {
         </header>
           <div className="microfrontends-container">
               {Microfrontend1 && <Microfrontend1 />}
-
           </div>
       </div>
     );
