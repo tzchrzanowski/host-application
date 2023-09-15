@@ -65,6 +65,7 @@ module.exports = (env, argv) => {
                 name: "Host Application",
                 remotes: {
                     microfrontend1: process.env.DEV_MF1,
+                    microfrontend2: process.env.DEV_MF2,
                 },
                 shared: {
                     ...deps,
