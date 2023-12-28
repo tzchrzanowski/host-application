@@ -10,9 +10,9 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          Host Application
+          Host Application: React
         </header>
-          <div className="microfrontends-container">
+          <div className="micro-frontends-container">
               {Microfrontend1 && <Microfrontend1 />}
               {Microfrontend2 && <Microfrontend2 />}
           </div>
